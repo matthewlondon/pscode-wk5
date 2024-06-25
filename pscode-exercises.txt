@@ -1,0 +1,41 @@
+// Exercise 1: Calculate the Sum of Two Numbers
+
+a + b = c
+
+num1 + num2 = sum
+print sum
+
+ask for 2 numbers 
+add the 2 number together 
+print on the screen the sum of those 2 numbers
+
+
+// Exercise 2: Check if a Number is Even or Odd
+
+(Your pseudocode here)
+ask for a number
+divide by 2
+check if remainder is 0 with % operator
+true is even
+false is odd
+
+// Exercise 3: 
+Write pseudo code that will perform the following.    
+
+a) Read in 5 separate numbers.   
+b) Calculate the average of the five numbers.
+c) Find the smallest (minimum) and largest (maximum) of the five entered numbers.
+d) Write out the results found from steps b and c with a message describing what they are
+
+for loop through 5 numbers prompting user for input
+add all numbers (avg = (n1 + n2 + n3 + n4 + n5))
+avg = avg/5
+initialize minimum and maximum int variables
+set minimum and maximum to first number entered
+use for loop to iterate through the input
+if x < minimum set minimum to x
+else if x > maximum set maximum to x
+print avg to console with message " avg is the average of the 5 numbers entered"
+print minimum and maximum to console with message " minimum is the smallest number entered while maximum is the largest number entered"
+
+-- END --
